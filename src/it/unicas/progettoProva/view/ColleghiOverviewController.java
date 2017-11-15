@@ -55,6 +55,7 @@ public class ColleghiOverviewController {
         this.mainApp = mainApp;
 
         //Add observable list data to the table
+        //
         colleghiTable.setItems(mainApp.getColleghiData());
     }
 }
